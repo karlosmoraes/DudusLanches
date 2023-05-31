@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kadu Lanches </title>
+
+    <link rel="stylesheet" href="./CSS/style.css">
+
+</head>
+
+<body>
+    
+    <div class="img-box"> 
+
+        <img id="img" src="./Imagens/Dudus.png">
+
+    </div>
+
+    <main>
+
+        <h1> Lanches </h1>
+
+        <ul>        
+
+            <li> <input type="radio" name="Lanche" id="XSalada" onclick="img.src = './Imagens/X-Salada.png'" checked> <p> X-Salada - R$12.00 </p> </li>
+            <li> <input type="radio" name="Lanche" id="XBurguer" onclick="img.src = './Imagens/X-Burguer.png'"> <p> X-Burguer - R$20.00 </p> </li>
+            <li> <input type="radio" name="Lanche" id="XEgg" onclick="img.src = './Imagens/X-Egg.png'"> <p> X-Egg - R$30.00 </p> </li>
+            <li> <input type="radio" name="Lanche" id="XDaCasa" onclick="img.src = './Imagens/X-Tudo.png'"> <p> X-DaCasa - R$60.00 </p> </li>
+
+        </ul>
+    
+        <h1 style="margin-top: 30px;"> Acompanhamentos </h1>
+
+        <ul>
+
+            <li> <input type="checkbox" name="Acompanhamentos" id="Hamburguer"> <p> Hamburguer - R$5.00 </p> </li>
+            <li> <input type="checkbox" name="Acompanhamentos" id="Salada"> <p> Salada - R$2.00 </p> </li>
+            <li> <input type="checkbox" name="Acompanhamentos" id="Tomate"> <p> Tomate - R$1.00 </p> </li>
+            <li> <input type="checkbox" name="Acompanhamentos" id="Bacon"> <p> Bacon - R$3.00 </p> </li>
+            <li> <input type="checkbox" name="Acompanhamentos" id="Cheddar"> <p> Cheddar - R$6.00 </p> </li>
+            <li> <input type="checkbox" name="Acompanhamentos" id="Cebola"> <p> Cebola - R$3.00 </p> </li>
+
+        </ul>
+
+        <h1 style="margin-top: 30px;"> Bebidas </h1>
+
+        <ul>
+
+            <li> <input type="checkbox" name="Acompanhamentos" id="CocaCola" onclick="img.src = './Imagens/Coca-Cola.png'"> <p> Coca-Cola - R$8.00 </p> </li>
+            <li> <input type="checkbox" name="Acompanhamentos" id="Agua" onclick="img.src = './Imagens/Agua .png'"> <p> Água - R$6.00 </p> </li>
+
+        </ul>
+
+        <div class="row">
+
+            <button onclick="finalizar()"> Finalizar Pedido </button>
+
+            <h1 id="result"> Preço: R$0 </h1>
+
+        </div>
+
+    </main>
+
+    <script src="./JS/script.js"></script>
+</body>
+</html>
