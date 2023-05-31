@@ -15,7 +15,7 @@ function receber(){
 
         list.innerHTML += `
 
-            <li> <p> ${index+1} - ${lanche.nome} - R$${lanche.preco} </p> <img src='./Imagens/Trash-2 (2).svg' onclick="apagar(${index})"> </li>
+            <li> <p> ${index+1} - ${lanche.nome} - R$${lanche.preco} </p> <img src='./Imagens/trash-2 (2).svg' onclick="apagar(${index})"> </li>
 
         `
 
@@ -38,7 +38,7 @@ function apagar(index){
 
         list.innerHTML += `
 
-            <li> <p> ${index+1} - ${lanche.nome} - R$${lanche.preco} </p> <img src='./Imagens/Trash-2 (2).svg' onclick="apagar(${index})"> </li>
+            <li> <p> ${index+1} - ${lanche.nome} - R$${lanche.preco} </p> <img src='./Imagens/trash-2 (2).svg' onclick="apagar(${index})"> </li>
 
         `
 
